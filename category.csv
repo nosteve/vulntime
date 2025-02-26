@@ -1,0 +1,551 @@
+﻿id,title,category
+,Obsolete Version of Apache HTTPD,8 EOL
+,Obsolete VMware ESX Version,8 EOL
+,Default or Guessable SNMP community names: public,3 Recon
+,Obsolete version of Microsoft MSXML 4,9 Patch
+,Red Hat Enterprise Linux Obsolete Version,8 EOL
+,"Cisco IOS and IOS XE Software Smart Install ""Protocol Misuse""",2 Target
+,Default or Guessable SNMP community names: private,3 Recon
+,Microsoft SQL Server Obsolete Version: Authenticated,8 EOL
+,Obsolete Version of the Java Runtime Environment,8 EOL
+,Default or Guessable SNMP community names: snmpd,3 Recon
+,Default or Guessable SNMP community names: all private,3 Recon
+,Obsolete version of Microsoft Office,8 EOL
+,Apache Tomcat: Obsolete version,8 EOL
+,Obsolete Version of Ubuntu,8 EOL
+,Adobe Flash Player Obsolete Version,8 EOL
+,Obsolete Version of Apache HTTPD,8 EOL
+,Apache Log4j Obsolete Version,8 EOL
+,SMTP unauthenticated 3rd-party mail relay,2 Target
+,Obsolete Version of HP-UX,8 EOL
+,Anonymous FTP Writeable Directories,4 Social
+,MySQL Obsolete Version,8 EOL
+,Telnet guest account open,2 Target
+,JRE Unpack200 Integer Overflow,9 Patch
+,TELNET access with no account and password admin,1 Creds
+,TELNET access with no account and password password,1 Creds
+,TELNET access with account admin and password admin,1 Creds
+,TELNET access with root and no password,1 Creds
+,TELNET access with root and password root,1 Creds
+,Undocumented Default Account:  diag,2 Target
+,Undocumented Default Account:  manuf,2 Target
+,"Default Telnet password: root password ""password""",1 Creds
+,"Default Telnet password: admin password ""password""",1 Creds
+,SMTP unauthenticated 3rd-party mail relay (from percent),2 Target
+,"Default SSH password: admin password ""admin""",1 Creds
+,MS14-026: Vulnerability in .NET Framework Could Allow Elevation of Privilege (2958732),9 Patch
+,SMTP unauthenticated 3rd-party mail relay (from no-domain address),2 Target
+,CentOS Linux Obsolete Version,8 EOL
+,VMware vCenter Server: Obsolete version,8 EOL
+,MS15-034: Vulnerability in HTTP.sys Could Allow Remote Code Execution (3042553),2 Target
+,Default account on APC Web Management Card: apc/apc,1 Creds
+,Microsoft ADV210003: Mitigating NTLM Relay Attacks on Active Directory Certificate Services (AD CS),10 Process
+,Microsoft SQL Server Obsolete Version: Remote,8 EOL
+,Obsolete version of Microsoft Skype for Business,8 EOL
+,Obsolete version of Microsoft Windows Server 2012,8 EOL
+,Obsolete Version of Wireshark,8 EOL
+,Obsolete version of Microsoft .NET Framework,8 EOL
+,Oracle WebLogic Obsolete,8 EOL
+,JRE Deployment Toolkit Vulnerability,9 Patch
+,JRE Audio and Image File Buffer and Integer Overflow Vulnerabilities,9 Patch
+,JRE Untrusted Application Privilege Escalation Vulnerability,5 Local
+,THTTPD Obsolete Version,8 EOL
+,MS16-027: Security Update for Windows Media to Address Remote Code Execution (3143146),9 Patch
+,MS15-116: Security Update for Microsoft Office to Address Remote Code Execution (3104540),9 Patch
+,MS15-081: Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (3080790),2 Target
+,Obsolete version of Microsoft Windows Server 2008,8 EOL
+,MS14-023: Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (2961037),9 Patch
+,MS14-072: Vulnerability in .NET Framework Could Allow Elevation of Privilege (3005210),9 Patch
+,MS16-004: Security Update for Microsoft Office to Address Remote Code Execution (3124585),4 Social
+,MS16-099: Security Update for Microsoft Office (3177451),2 Target
+,MS16-107: Security Update for Microsoft Office (3185852),2 Target
+,MS13-074: Vulnerabilities in Microsoft Access Could Allow Remote Code Execution (2848637),9 Patch
+,MS11-078: Vulnerability in .NET Framework and Microsoft Silverlight Could Allow Remote Code Execution (2604930),4 Social
+,MS11-039: Vulnerability in .NET Framework and Microsoft Silverlight Could Allow Remote Code Execution (2514842),4 Social
+,MS11-025: Vulnerability in Microsoft Foundation Class (MFC) Library Could Allow Remote Code Execution (2500212),4 Social
+,"MS12-034: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight (2681578)",9 Patch
+,MS12-016: Vulnerabilities in .NET Framework and Microsoft Silverlight Could Allow Remote Code Execution (2651026),9 Patch
+,MS14-022: Vulnerabilities in Microsoft SharePoint Server Could Allow Remote Code Execution (2952166),9 Patch
+,MS15-058: Vulnerabilities in SQL Server Could Allow Remote Code Execution (3065718),9 Patch
+,'rexec' Remote Execution Service Enabled,2 Target
+,Apache Tomcat Example Scripts Information Leakage,3 Recon
+,SNMP credentials transmitted in cleartext,10 Process
+,SSH server supports SSH protocol v1 clients,7 Crypto
+,Default or Guessable SNMP community names: tivoli,3 Recon
+,Default or Guessable SNMP community names: openview,3 Recon
+,Default or Guessable SNMP community names: default,3 Recon
+,Default or Guessable SNMP community names: password,3 Recon
+,Default or Guessable SNMP community names: community,3 Recon
+,Default or Guessable SNMP community names: snmp,3 Recon
+,Default or Guessable SNMP community names: OrigEquipMfr,3 Recon
+,Default or Guessable SNMP community names: admin,3 Recon
+,Default or Guessable SNMP community names: read,3 Recon
+,Default or Guessable SNMP community names: write,3 Recon
+,Default or Guessable SNMP community names: rmon_admin,3 Recon
+,Default or Guessable SNMP community names: hp_admin,3 Recon
+,Default or Guessable SNMP community names: cascade,3 Recon
+,Default or Guessable SNMP community names: secret,3 Recon
+,Default or Guessable SNMP community names: cable-docsis,3 Recon
+,Default or Guessable SNMP community names: rmon,3 Recon
+,Default or Guessable SNMP community names: security,3 Recon
+,Default or Guessable SNMP community names: ilmi,3 Recon
+,Default or Guessable SNMP community names: ILMI,3 Recon
+,Default or Guessable SNMP community names: monitor,3 Recon
+,Default or Guessable SNMP community names: agent,3 Recon
+,Default or Guessable SNMP community names: system,3 Recon
+,Default or Guessable SNMP community names: all,3 Recon
+,Default or Guessable SNMP community names: manager,3 Recon
+,Default or Guessable SNMP community names: NoGaH$@!,3 Recon
+,Default or Guessable SNMP community names: proxy,3 Recon
+,Default or Guessable SNMP community names: Secret C0de,3 Recon
+,Default or Guessable SNMP community names: ANYCOM,3 Recon
+,VNC remote control service installed,2 Target
+,OpenSSH X11 Cookie Local Authentication Bypass Vulnerability,10 Process
+,JRE Multiple Proxy Vulnerabilities,9 Patch
+,JRE Non-English Update Flaw,9 Patch
+,Telnet DB2 Default Login: db2inst1,1 Creds
+,Telnet DB2 Default Login: db2as,1 Creds
+,Telnet DB2 Default Login: db2fenc1,2 Target
+,JRE Invalid JPEG Handling,9 Patch
+,Microsoft IIS ISAPI Extension Enumerate Root Web Server Directory Vulnerability,3 Recon
+,FTP access with administrator/null credentials,2 Target
+,FTP access with admin/password credentials,1 Creds
+,FTP access with admin/passwd credentials,1 Creds
+,FTP access with administrator/password credentials,1 Creds
+,FTP access with admin/null credentials,1 Creds
+,FTP access with administrator/passwd credentials,1 Creds
+,FTP PORT bounce attack,3 Recon
+,'rlogin' Remote Login Service Enabled,2 Target
+,THTTPD defang() Buffer Overflow,9 Patch
+,FTP credentials transmitted unencrypted,1 Creds
+,SMB signing disabled,10 Process
+,POP credentials transmitted unencrypted,1 Creds
+,Windows autologin enabled,10 Process
+,No authentication for single user mode,5 Local
+,THTTPD htpasswd multiple vulnerabilities,5 Local
+,X.509 Certificate Subject CN Does Not Match the Entity Name,7 Crypto
+,IPMI 2.0 RAKP RMCP+ Authentication HMAC Password Hash Exposure,3 Recon
+,MS12-021: Vulnerability in Visual Studio Could Allow Elevation of Privilege (2651019),4 Social
+,CIFS Account Lockout Policy Allows Password Brute Forcing,2 Target
+,CIFS Account Password Never Expires,10 Process
+,X.509 Server Certificate Is Invalid/Expired,7 Crypto
+,ICMP redirection enabled,3 Recon
+,NTP 'ntpd' Autokey Stack Buffer Overflow Vulnerability,2 Target
+,Weak LAN Manager hashing permitted,1 Creds
+,JRE JNLPAppletLauncher Vulnerability,9 Patch
+,MS14-044: Vulnerabilities in SQL Server Could Allow Elevation of Privilege (2984340),9 Patch
+,CIFS Minimum Password Length Policy Not Enforced,10 Process
+,CIFS Account Lockout Policy Not Enforced,10 Process
+,Windows Unquoted Search Path or Element can allow local privilege escalation,9 Patch
+,HTTP Basic Authentication Enabled,10 Process
+,MS16-136: Security Update for SQL Server (3199641),9 Patch
+,HTTP DELETE Method Enabled,10 Process
+,FTP server uses predictable port numbers for PASV connections,10 Process
+,SMBv2 signing not required,10 Process
+,SMB signing not required,10 Process
+,Untrusted TLS/SSL server X.509 certificate,7 Crypto
+,SMB: Service supports deprecated SMBv1 protocol,10 Process
+,TLS/SSL Server Supports DES and IDEA Cipher Suites,7 Crypto
+,HTTP TRACE Method Enabled,10 Process
+,Adobe Flash permissive crossdomain.xml policy,10 Process
+,TLS/SSL Server Supports Export Cipher Algorithms,7 Crypto
+,TLS/SSL Server Supports Anonymous Cipher Suites with no Key Authentication,7 Crypto
+,Lotus Notes Server Does Not Require Port Encryption,1 Creds
+,Multiple users using the same password,1 Creds
+,TLS/SSL Birthday attacks on 64-bit block ciphers (SWEET32),7 Crypto
+,TLS RC4 Stream Cipher Key Invariance (Bar Mitzvah),7 Crypto
+,Microsoft IIS default installation/welcome page installed,3 Recon
+,SSH Birthday attacks on 64-bit block ciphers (SWEET32),7 Crypto
+,Database Open Access,2 Target
+,IPMI 1.5 GetChannelAuth Response Information Disclosure,3 Recon
+,NTP: Traffic amplification in clrtrap feature of ntpd,6 DoS
+,Nameserver Processes Recursive Queries,10 Process
+,DNS server allows cache snooping,3 Recon
+,Apache Tomcat default installation/welcome page installed,3 Recon
+,MD5-based Signature in TLS/SSL Server X.509 Certificate,7 Crypto
+,LDAP Anonymous Directory Access Permitted,3 Recon
+,Apache default installation/welcome page installed,3 Recon
+,NTP: Traffic Amplification in listpeers feature of ntpd,6 DoS
+,NTP: Traffic Amplification in reslist feature of ntpd,6 DoS
+,NTP: Traffic Amplification in peers feature of ntpd,6 DoS
+,NTP: Traffic Amplification in CTL_OP_REQ_NONCE feature of ntpd,6 DoS
+,JRE DER Decoding Denial of Service,9 Patch
+,JRE XML Parsing Denial of Service,9 Patch
+,JRE XML Authentication Bypass,9 Patch
+,JRE Audio System Information Leak,9 Patch
+,JRE HMAC Digest Flaw,9 Patch
+,Apache Server mod_info is Publicly Accessible,3 Recon
+,No password for Grub,10 Process
+,MSSQL Service Pack: SQL Server 2016 SP3,9 Patch
+,MSSQL Service Pack: SQL Server 2014 SP2,9 Patch
+,MSSQL Service Pack: SQL Server 2014 SP3,9 Patch
+,MSSQL Service Pack: SQL Server 2008 SP2,9 Patch
+,MSSQL Service Pack: SQL Server 2008 SP4,9 Patch
+,MSSQL Service Pack: SQL Server 2008 SP3,9 Patch
+,MSSQL Service Pack: SQL Server 2008 R2 SP3,8 EOL
+,User umask value is unsafe,10 Process
+,MSSQL Service Pack: SQL Server 2016 SP2,9 Patch
+,List of all Service Pack 1 (SP1) updates for Microsoft Office 2013 and related desktop products,9 Patch
+,MSSQL Service Pack: SQL Server 2008 SP1,9 Patch
+,MSSQL Service Pack: SQL Server 2012 SP4,9 Patch
+,MSSQL Service Pack: SQL Server 2012 SP1,9 Patch
+,MSSQL Service Pack: SQL Server 2012 SP3,9 Patch
+,MSSQL Service Pack: SQL Server 2012 SP2,9 Patch
+,MSSQL Service Pack: SQL Server 2008 R2 SP2,9 Patch
+,MSSQL Service Pack: SQL Server 2008 R2 SP1,9 Patch
+,MSSQL Service Pack: SQL Server 2016 SP1,9 Patch
+,TLS/SSL Server is enabling the BEAST attack,7 Crypto
+,TLS Server Supports TLS version 1.0,7 Crypto
+,Self-signed TLS/SSL certificate,7 Crypto
+,SSH Server Supports Weak Key Exchange Algorithms,7 Crypto
+,SSH Server Supports diffie-hellman-group1-sha1,7 Crypto
+,Unencrypted Telnet Service Available,1 Creds
+,SSH Server Supports RC4 Cipher Algorithms,7 Crypto
+,TLS/SSL Server Supports SSLv3,7 Crypto
+,TLS/SSL Server is enabling the POODLE attack,7 Crypto
+,ROBOT: Return Of Bleichenbacher's Oracle Threat,9 Patch
+,MS11-049: Vulnerability in the Microsoft XML Editor Could Allow Information Disclosure (2543893),9 Patch
+,MS15-118: Security Update for .NET Framework to Address Elevation of Privilege (3104507),9 Patch
+,Invalid TLS/SSL certificate,7 Crypto
+,Apache Server mod_status is Publicly Accessible,3 Recon
+,MFSA2021-06 Firefox: Security Vulnerabilities fixed in Firefox 85.0.1 and Firefox ESR 78.7.1,9 Patch
+,TLS/SSL Weak Message Authentication Code Cipher Suites,7 Crypto
+,SSH Weak Message Authentication Code Algorithms,7 Crypto
+,IPMI 2.0 RAKP RMCP+ Authentication Username Disclosure,3 Recon
+,Diffie-Hellman group smaller than 1024 bits,7 Crypto
+,Unix non-root account with UID 0,1 Creds
+,Weak Cryptographic Key,7 Crypto
+,TLS/SSL Server Supports The Use of Static Key Ciphers,7 Crypto
+,TLS Server Supports TLS version 1.1,7 Crypto
+,HTTP OPTIONS Method Enabled,3 Recon
+,SSH CBC vulnerability,7 Crypto
+,TLS/SSL Server Is Using Commonly Used Prime Numbers,7 Crypto
+,Diffie-Hellman group smaller than 2048 bits,7 Crypto
+,SHA-1-based Signature in TLS/SSL Server X.509 Certificate,7 Crypto
+,MS15-041: Vulnerability in .NET Framework Could Allow Information Disclosure (3048010),9 Patch
+,OpenSSH CBC Mode Information Disclosure Vulnerability,3 Recon
+,User home directory mode unsafe,10 Process
+,Partition Mounting Weakness,9 Patch
+,"OpenSSH ""X11UseLocalhost"" X11 Forwarding Session Hijacking Vulnerability",10 Process
+,TLS/SSL Server Does Not Support Any Strong Cipher Algorithms,7 Crypto
+,ICMP timestamp response,3 Recon
+,TLS/SSL Server Supports 3DES Cipher Suite,7 Crypto
+,TCP timestamp response,3 Recon
+,Scanning Diagnostics: Unable to authenticate to the WinRM Service,11 Error
+,Scanning Diagnostics: Configured SSH credentials have failed to authenticate,11 Error
+,CIFS Share Readable By Everyone,2 Target
+,Scanning Diagnostics: WinRM service was accessible over unencrypted protocol,11 Error
+,SSH Server Supports 3DES Cipher Suite,7 Crypto
+,CIFS Share Writeable By Everyone,2 Target
+,NTP clock variables information disclosure,3 Recon
+,NetBIOS NBSTAT Traffic Amplification,6 DoS
+,UDP IP ID Zero,3 Recon
+,Scanning Diagnostics: No SSH credentials with root privileges configured,11 Error
+,Scanning Diagnostics: Unable to connect to the WMI Service,11 Error
+,Scanning Diagnostics: Access errors while attempting to read from the file system,11 Error
+,Scanning Diagnostics: Unknown error occurred trying to connect to the WMI Service,11 Error
+,Scanning Diagnostics: Access issues interacting with the Windows Registry,11 Error
+,X.509 Server Certificate Will Expire Within 30 Days,7 Crypto
+,Apache Log4j Log4Shell JndiLookup class mitigation in place,9 Patch
+,FTP access with anonymous account,3 Recon
+,FTP access with ftp account,3 Recon
+,Scanning Diagnostics: Unknown error encountered when access WinRM,11 Error
+,Scanning Diagnostics: No usable SNMP service,11 Error
+,FTP access with guest account,1 Creds
+,FTP access with no account and password,1 Creds
+,FTP access without authentication,1 Creds
+,FTP access with blank account and password,1 Creds
+,ICMP netmask response,3 Recon
+,Character Generator Traffic Amplification,6 DoS
+,Quote of the Day Traffic Amplification,6 DoS
+,Scanning Diagnostics: Unable to contact the WinRM Listener,11 Error
+,Adobe Flash Player <= 18.0.0.161 RCE (APSB15-14),4 Social
+,Adobe Flash Player <= 27.0.0.183 (APSB17-33),4 Social
+,Adobe Flash Player <= 28.0.0.137 Use-after-free Remote Code Execution (APSA18-01) (APSB18-03),4 Social
+,Adobe Flash Player <= 28.0.0.161 (APSB18-05),4 Social
+,Adobe Flash Player <= 29.0.0.113 (APSB18-08),4 Social
+,Adobe Flash Player <= 29.0.0.140 (APSB18-16),5 Local
+,Adobe Flash Player <= 29.0.0.171 (APSB18-19),4 Social
+,Adobe Flash Player <= 31.0.0.148 (APSB18-44),4 Social
+,Adobe Flash Player <= 32.0.0.238 (APSB19-46),4 Social
+,Adobe Flash Player <= 32.0.0.371 (APSB20-30),4 Social
+,Adobe Flash Player Unsupported Version Detection,9 Patch
+,Apache httpd SEoL (2.1.x <= x <= 2.2.x),8 EOL
+,Apache Log4j SEoL (<= 1.x),8 EOL
+,ASP.NET Core SEoL,8 EOL
+,Flash Player <= 10.3.183.48 / 11.5.502.135 Buffer Overflow (APSB13-01),4 Social
+,Flash Player <= 10.3.183.75 / 11.7.700.169 Multiple Vulnerabilities (APSB13-14),4 Social
+,Flash Player <= 10.3.183.86 / 11.7.700.202 Memory Corruption (APSB13-16),4 Social
+,Flash Player <= 11.7.700.232 / 11.8.800.94 Memory Corruptions (APSB13-21),4 Social
+,Flash Player <= 11.7.700.242 / 11.9.900.117 Memory Corruptions (APSB13-26),4 Social
+,Flash Player <= 11.7.700.260 / 12.0.0.43 Unspecified Remote Code Execution (APSB14-04),4 Social
+,Flash Player <= 11.7.700.275 / 13.0.0.182 Pixel Bender Component Buffer Overflow (APSB14-13),4 Social
+,Flash Player <= 15.0.0.223 Dereferenced Memory Pointer RCE (APSB14-26),4 Social
+,Flash Player <= 16.0.0.257 Information Disclosure (APSB15-02),4 Social
+,KB4561600: Security update for Adobe Flash Player (June 2020),9 Patch
+,KB4586786: Windows 10 Version 1903 and Windows 10 Version 1909 November 2020 Security Update,2 Target
+,KB4586805: Windows 7 and Windows Server 2008 R2 November 2020 Security Update,2 Target
+,Microsoft .NET Core SEoL,8 EOL
+,Microsoft .NET Framework Unsupported,8 EOL
+,Microsoft Exchange Server Unsupported Version Detection,8 EOL
+,Microsoft Office Unsupported Version Detection,8 EOL
+,Microsoft RDP RCE (CVE-2019-0708) (BlueKeep) (uncredentialed check),2 Target
+,Microsoft Silverlight Unsupported Version Detection (Windows),8 EOL
+,Microsoft SQL Server Unsupported Version Detection,8 EOL
+,Microsoft SQL Server Unsupported Version Detection (remote check),8 EOL
+,Microsoft Teams < 1.6.0.18681 RCE,9 Patch
+,Microsoft Windows 10 Version 1809 Unsupported Version Detection,8 EOL
+,Microsoft Windows 10 Version 1909 Unsupported Version Detection,8 EOL
+,Microsoft Windows 7 / Server 2008 R2 Unsupported Version Detection,8 EOL
+,Microsoft Windows Type 1 Font Parsing Remote Code Execution Vulnerability (ADV200006),5 Local
+,Microsoft Windows XP Unsupported Installation Detection,8 EOL
+,Microsoft XML Parser (MSXML) and XML Core Services Unsupported,8 EOL
+,Mozilla Foundation Unsupported Application Detection,8 EOL
+,MS14-066: Vulnerability in Schannel Could Allow Remote Code Execution (2992611) (uncredentialed check),2 Target
+,Netatalk OpenSession Remote Code Execution,2 Target
+,Oracle Java JRE Unsupported Version Detection,8 EOL
+,Oracle Java SE Multiple Vulnerabilities (April 2013 CPU),2 Target
+,Oracle Java SE Multiple Vulnerabilities (April 2014 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (April 2015 CPU) (FREAK),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (April 2016 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (February 2013 CPU Update 1),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (February 2013 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (January 2014 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (January 2015 CPU) (POODLE),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (January 2016 CPU) (SLOTH),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (July 2014 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (July 2015 CPU) (Bar Mitzvah),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (June 2012 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (June 2013 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (October 2012 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (October 2013 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (October 2014 CPU),8 EOL
+,Oracle Java SE Multiple Vulnerabilities (October 2015 CPU),8 EOL
+,PHP Unsupported Version Detection,8 EOL
+,Security Updates for Microsoft .NET Core (December 2022),8 EOL
+,Security Updates for Microsoft .NET Framework (December 2022),9 Patch
+,Security Updates for Microsoft ASP.NET Core (December 2022),9 Patch
+,Solaris 10 Forced Login Telnet Authentication Bypass,1 Credentials
+,SSL Version 2 and 3 Protocol Detection,7 Crypto
+,Unix Operating System Unsupported Version Detection,8 EOL
+,Unprotected Telnet Service,1 Credentials
+,Unsupported Windows OS (remote),8 EOL
+,VanDyke Software SecureCRT < 8.7.2 Memory Corruption Vulnerability,4 Social
+,VMware ESX / ESXi Unsupported Version Detection,8 EOL
+,Adobe Flash Player <= 23.0.0.185 Arbitrary Code Execution (APSB16-36),4 Social
+,Adobe Flash Player <= 30.0.0.134 (APSB18-25),9 Patch
+,Adobe Flash Player <= 32.0.0.171 (APSB19-26),9 Patch
+,Adobe Flash Player <= 32.0.0.321 (APSB20-06),9 Patch
+,Adobe Flash Player <= 32.0.0.433 (APSB20-58),9 Patch
+,Apache 2.4.x < 2.4.52 mod_lua Buffer Overflow,9 Patch
+,Apache 2.4.x >= 2.4.7 / < 2.4.52 Forward Proxy DoS / SSRF,9 Patch
+,Apache Tomcat 8.5.x < 8.5.83 Request Smuggling Vulnerability,9 Patch
+,Cisco Prime Infrastructure TFTP Arbitrary File Upload and Command Execution Vulnerability (cisco-sa-20181003-pi-tftp),2 Target
+,Cisco Prime Infrastructure TFTP Arbitrary File Upload and Command Execution Vulnerability (cisco-sa-20181003-pi-tftp),2 Target
+,Curl 7.84 <= 8.2.1 Header DoS (CVE-2023-38039),6 DoS
+,Firefly Media Server webserver.c ws_addarg Function /xml-rpc Authorization Header Remote Format String,6 DoS
+,Flash Player < 10.2.153.1 Unspecified Memory Corruption (APSB11-05),4 Social
+,Flash Player < 10.2.159.1 ActionScript Predefined Class Prototype Addition Remote Code Execution (APSB11-07),4 Social
+,Flash Player < 10.3.181.26 Multiple Vulnerabilities (APSB11-18),4 Social
+,Flash Player < 9.0.277.0 / 10.1.53.63 Multiple Vulnerabilities (APSB10-14),4 Social
+,Flash Player < 9.0.280 / 10.1.82.76 Multiple Vulnerabilities (APSB10-16),4 Social
+,Flash Player < 9.0.283 / 10.1.85.3 Unspecified Code Execution (APSB10-22),4 Social
+,Flash Player <= 11.3.300.270 Code Execution (APSB12-18),2 Target
+,Insecure Windows Service Permissions,5 Local
+,KB4551762: Windows 10 Version 1903 and Windows 10 Version 1909 OOB Security Update (ADV200005)(CVE-2020-0796),2 Target
+,KB4580325: Security update for Adobe Flash Player (October 2020),9 Patch
+,KB5003169: Windows 10 version 1909 Security Update (May 2021),2 Target
+,KB5003233: Windows 7 and Windows Server 2008 R2 Security Update (May 2021),2 Target
+,KB5003635: Windows 10 version 1909 Security Update (June 2021),2 Target
+,KB5003694: Windows 7 and Windows Server 2008 R2 Security Update (June 2021),2 Target
+,KB5004245: Windows 10 1909 Security Update (July 2021),2 Target
+,KB5004307: Windows 7 and Windows Server 2008 R2 Security Update (July 2021),2 Target
+,KB5004946: Windows 10 1909 OOB Security Update RCE (July 2021),2 Target
+,KB5004951: Windows 7 and Windows Server 2008 R2 OOB Security Update RCE (July 2021),2 Target
+,KB5006728: Windows 7 and Windows Server 2008 R2 Security Update (October 2021),2 Target
+,KB5006729: Windows 8.1 and Windows Server 2012 R2 Security Update (October 2021),2 Target
+,Microsoft Edge Legacy Browser Unsupported Version Detection,8 EOL
+,Microsoft Teams < 1.6.0.11166 Information Disclosure,9 Patch
+,Microsoft Windows Defender Elevation of Privilege Vulnerability (CVE-2020-1163 & CVE-2020-1170),9 Patch
+,MS KB2269637: Insecure Library Loading Could Allow Remote Code Execution,9 Patch
+,MS10-031: Vulnerability in Microsoft Visual Basic for Applications Could Allow Remote Code Execution (978213),4 Social
+,MS14-025: Vulnerability in Group Policy Preferences Could Allow Elevation of Privilege (2962486),2 Target
+,MS15-011: Vulnerability in Group Policy Could Allow Remote Code Execution (3000483),2 Target
+,MS16-042: Security Update for Microsoft Office (3148775),2 Target
+,MS16-109: Security Update for Silverlight (3182373),4 Social
+,Notepad++ < 8.5.7 Multiple Buffer Overflow Vulnerabilities,5 Local
+,Oracle Java SE Multiple Vulnerabilities (October 2017 CPU),8 EOL
+,Oracle MySQL ODBC and C++ Connectors (Apr 2023 CPU),6 DoS
+,PHP < 7.1.33 / 7.2.x < 7.2.24 / 7.3.x < 7.3.11 Remote Code Execution Vulnerability.,2 Target
+,Security Feature Bypass Vulnerability for Microsoft Excel Products (June 2020),4 Social
+,Security Update for Microsoft Office Products (July 2017),4 Social
+,Security Updates for Microsoft .NET Core (September 2022),6 DoS
+,Security Updates for Microsoft ASP.NET Core (September 2022),6 DoS
+,Security Updates for Microsoft Excel Products (February 2020),9 Patch
+,Security Updates for Microsoft Excel Products (June 2023),2 Target
+,Security Updates for Microsoft Excel Products (May 2023),4 Social
+,Security Updates for Microsoft Excel Products (November 2020),4 Social
+,Security Updates for Microsoft Office Products (December 2020),4 Social
+,Security Updates for Microsoft Office Products (March 2023),2 Target
+,Security Updates for Microsoft Office Products (May 2019),4 Social
+,Security Updates for Microsoft Office Products (October 2022),9 Patch
+,Security Updates for Microsoft Office Products (September 2022),9 Patch
+,Security Updates for Microsoft SQL Server ODBC Driver (June 2023),9 Patch
+,Security Updates for Windows Defender (April 2020),9 Patch
+,SMB Insecurely Configured Service,5 Local
+,SMB NULL Session Authentication,3 Recon
+,SNMP Agent Default Community Name (public),3 Recon
+,SSH Protocol Version 1 Session Key Retrieval,7 Crypto
+,Tenable Nessus 10.x < 10.4.2 Privilege Escalation (TNS-2023-01),9 Patch
+,Unsupported Web Server Detection,8 EOL
+,VMware Tools 11.x < 11.2.6 Privilege Escalation (VMSA-2021-0013),9 Patch
+,VNC Server Unauthenticated Access,1 Credentials
+,VNC Server Unauthenticated Access: Screenshot,1 Credentials
+,Windows Defender Antimalware/Antivirus Signature Definition Check,9 Patch
+,Windows PrintNightmare Registry Exposure CVE-2021-34527 OOB Security Update RCE (July 2021),10 Process
+,WinRAR < 6.23 RCE,4 Social
+,Wireshark 3.2.x < 3.2.2 Multiple Vulnerabilities,9 Patch
+,Wireshark 3.2.x < 3.2.8 Multiple Vulnerabilities,9 Patch
+,VMware Tools 10.x / 11.x / 12.x < 12.1.5 DoS (VMSA-2022-0029),9 Patch
+,VMware Tools 11.x / 12.x < 12.1.0 Privilege Escalation (VMSA-2022-0024),9 Patch
+,VMware Tools 11.x < 11.3.0 DoS (VMSA-2021-0011),9 Patch
+,Windows Malicious Software Removal Tool Elevation of Privilege Vulnerability,9 Patch
+,Windows SeriousSAM HiveNightmare Registry Read Vulnerability,5 Local
+,Wireshark 2.6.x < 2.6.16 / 3.0.x < 3.0.10 / 3.2.x < 3.2.3 BACapp Dissector DoS,6 DoS
+,Wireshark 3.2.x < 3.2.4 NFS Dissector DoS Vulnerability,6 DoS
+,Zoom Client < 5.11.0 URL Parsing Vulnerability,9 Patch
+,Zoom Client < 5.9.7,9 Patch
+,OpenSSL AES-NI Padding Oracle MitM Information Disclosure,7 Crypto
+,PHP 7.2.x < 7.2.33 Use-After-Free Vulnerability,9 Patch
+,Python Information Disclosure (CVE-2021-3426),9 Patch
+,Security Updates for Microsoft .NET Framework (September 2020),9 Patch
+,SSH Server CBC Mode Ciphers Enabled,7 Crypto
+,SSH Weak Key Exchange Algorithms Enabled,7 Crypto
+,VMware Tools 10.x / 11.x / 12.x < 12.0.5 XXE (VMSA-2022-0015),9 Patch
+100669,"Web Application Cookies Are Expired","10 Process"
+10107,"HTTP Server Type and Version",""
+10114,"ICMP Timestamp Request Remote Date Disclosure",""
+10267,"SSH Server Type and Version Information","3 Recon"
+10287,"Traceroute Information",""
+10302,"Web Server robots.txt Information Disclosure","3 Recon"
+10386,"Web Server No 404 Error Code Check",""
+104743,"TLS Version 1.0 Protocol Detection","7 Crypto"
+106658,"JQuery Detection",""
+10759,"Web Server HTTP Header Internal IP Disclosure",""
+10863,"SSL Certificate Information","7 Crypto"
+10881,"SSH Protocol Versions Supported","7 Crypto"
+11002,"DNS Server Detection",""
+110723,"Target Credential Status by Authentication Protocol - No Credentials Provided",""
+11219,"Nessus SYN scanner",""
+11422,"Web Server Unconfigured - Default Install Page Present","3 Recon"
+117886,"OS Security Patch Assessment Not Available",""
+11936,"OS Identification","3 Recon"
+12053,"Host Fully Qualified Domain Name (FQDN) Resolution",""
+12085,"Apache Tomcat Default Files","3 Recon"
+121010,"TLS Version 1.1 Protocol Detection","7 Crypto"
+136318,"TLS Version 1.2 Protocol Detection","7 Crypto"
+138330,"TLS Version 1.3 Protocol Detection","7 Crypto"
+144047,"OpenSSL 1.1.1 < 1.1.1i Vulnerability","9 Patch"
+147164,"Apache Tomcat 9.0.0.M1 < 9.0.43 multiple vulnerabilities","9 Patch"
+148125,"OpenSSL 1.1.1 < 1.1.1k Multiple Vulnerabilities","9 Patch"
+148402,"OpenSSL 1.1.1 < 1.1.1j Multiple Vulnerabilities","9 Patch"
+149334,"SSH Password Authentication Accepted","2 Target"
+150280,"Apache 2.4.x < 2.4.47 Multiple Vulnerabilities","9 Patch"
+152182,"Apache Tomcat 9.0.0.M1 < 9.0.48","9 Patch"
+152782,"OpenSSL 1.1.1 < 1.1.1l Multiple Vulnerabilities","9 Patch"
+153583,"Apache < 2.4.49 Multiple Vulnerabilities","2 Target"
+153584,"Apache < 2.4.49 Multiple Vulnerabilities","9 Patch"
+153585,"Apache >= 2.4.17 < 2.4.49 mod_http2","9 Patch"
+153586,"Apache >= 2.4.30 < 2.4.49 mod_proxy_uwsgi","9 Patch"
+153588,"SSH SHA-1 HMAC Algorithms Enabled","7 Crypto"
+153953,"SSH Weak Key Exchange Algorithms Enabled","7 Crypto"
+154150,"Apache Tomcat 9.0.40 < 9.0.54","9 Patch"
+156255,"Apache 2.4.x >= 2.4.7 / < 2.4.52 Forward Proxy DoS / SSRF","9 Patch"
+156899,"SSL/TLS Recommended Cipher Suites","7 Crypto"
+157117,"Apache Tomcat 9.0.35 < 9.0.58 multiple vulnerabilities","9 Patch"
+157228,"OpenSSL 1.1.1 < 1.1.1m Vulnerability","9 Patch"
+157288,"TLS Version 1.1 Deprecated Protocol","7 Crypto"
+158900,"Apache 2.4.x < 2.4.53 Multiple Vulnerabilities","9 Patch"
+158974,"OpenSSL 1.1.1 < 1.1.1n Vulnerability","9 Patch"
+159464,"Apache Tomcat 9.0.0.M1 < 9.0.62 Spring4Shell CVE-2021-43980","9 Patch"
+160477,"OpenSSL 1.1.1 < 1.1.1o Vulnerability","9 Patch"
+160894,"Apache Tomcat 9.0.13 < 9.0.63","9 Patch"
+161454,"Apache 2.4.x < 2.4.52 mod_lua Buffer Overflow","9 Patch"
+161948,"Apache 2.4.x < 2.4.54 Multiple Vulnerabilities","9 Patch"
+162420,"OpenSSL 1.1.1 < 1.1.1p Vulnerability","9 Patch"
+162498,"Apache Tomcat 9.0.30 < 9.0.65","9 Patch"
+162721,"OpenSSL 1.1.1 < 1.1.1q Vulnerability","9 Patch"
+166906,"Apache Tomcat 9.0.0.M1 < 9.0.68","9 Patch"
+169459,"Apache Tomcat 9.0.40 < 9.0.69","9 Patch"
+170113,"Apache 2.4.x < 2.4.55 Multiple Vulnerabilities","9 Patch"
+171079,"OpenSSL 1.1.1 < 1.1.1t Multiple Vulnerabilities","9 Patch"
+171657,"Apache Tomcat 9.0.0.M1 < 9.0.71","9 Patch"
+172186,"Apache 2.4.x < 2.4.56 Multiple Vulnerabilities","9 Patch"
+173251,"Apache Tomcat 9.0.0.M1 < 9.0.72","9 Patch"
+173260,"OpenSSL 1.1.1 < 1.1.1u Multiple Vulnerabilities","9 Patch"
+178475,"OpenSSL 1.1.1 < 1.1.1v Multiple Vulnerabilities","9 Patch"
+180194,"Apache Tomcat 9.0.0.M1 < 9.0.80","9 Patch"
+181288,"OpenSSL 1.1.1 < 1.1.1w Vulnerability","9 Patch"
+182809,"Apache Tomcat 9.0.0.M1 < 9.0.81 multiple vulnerabilities","9 Patch"
+183391,"Apache 2.4.x < 2.4.58 Multiple Vulnerabilities","9 Patch"
+184811,"OpenSSL 1.1.1 < 1.1.1x Multiple Vulnerabilities","9 Patch"
+186365,"Apache Tomcat 9.0.0.M1 < 9.0.83","9 Patch"
+187315,"SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)","9 Patch"
+192042,"Apache Tomcat 9.0.0.M1 < 9.0.86 multiple vulnerabilities","9 Patch"
+192923,"Apache 2.4.x < 2.4.59 Multiple Vulnerabilities","9 Patch"
+192965,"OpenSSL 1.1.1 < 1.1.1y Multiple Vulnerabilities","9 Patch"
+193419,"Apache 2.4.x < 2.4.58 Out-of-Bounds Read (CVE-2023-31122)","9 Patch"
+193420,"Apache 2.4.x < 2.4.54 Out-Of-Bounds Read (CVE-2022-28330)","9 Patch"
+193421,"Apache 2.4.x < 2.4.54 Authentication Bypass","9 Patch"
+193422,"Apache 2.4.x < 2.4.54 HTTP Request Smuggling Vulnerability","9 Patch"
+193423,"Apache 2.4.x < 2.4.54 Multiple Vulnerabilities","9 Patch"
+193424,"Apache 2.4.x < 2.4.54 Multiple Vulnerabilities (mod_lua)","9 Patch"
+194473,"Apache Tomcat 9.0.0.M1 < 9.0.44 multiple vulnerabilities","9 Patch"
+19506,"Nessus Scan Information",""
+19689,"Embedded Web Server Detection","3 Recon"
+197830,"Apache Tomcat 9.0.0.M1 < 9.0.46","9 Patch"
+20108,"Web Server / Application favicon.ico Vendor Fingerprinting","3 Recon"
+201084,"OpenSSL 1.1.1 < 1.1.1za Vulnerability","9 Patch"
+201198,"Apache 2.4.x < 2.4.60 Multiple Vulnerabilities","9 Patch"
+201848,"Apache Tomcat 9.0.0.M1 < 9.0.90","9 Patch"
+202577,"Apache 2.4.x < 2.4.62 Multiple Vulnerabilities","9 Patch"
+209149,"OpenSSL 1.1.1 < 1.1.1zb Vulnerability","9 Patch"
+21642,"Session Initiation Protocol Detection","3 Recon"
+21643,"SSL Cipher Suites Supported","7 Crypto"
+22964,"Service Detection",""
+24260,"HyperText Transfer Protocol (HTTP) Information",""
+25220,"TCP/IP Timestamps Supported",""
+25342,"XMPP Server Detection",""
+29222,"Citrix Application Delivery Controller (ADC) / Citrix NetScaler Detection","2 Target"
+29224,"NetScaler Unencrypted Web Management Interface","2 Target"
+31422,"Reverse NAT/Intercepting Proxy Detection",""
+39446,"Apache Tomcat Detection",""
+39521,"Backported Security Patch Detection (WWW)",""
+42089,"XMPP Service STARTTLS Command Support",""
+42822,"Strict Transport Security (STS) Detection",""
+42823,"Non-compliant Strict Transport Security (STS)",""
+43111,"HTTP Methods Allowed (per directory)",""
+45590,"Common Platform Enumeration (CPE)",""
+46180,"Additional DNS Hostnames",""
+46215,"Inconsistent Hostname and IP Address",""
+48204,"Apache HTTP Server Version",""
+50845,"OpenSSL Detection","7 Crypto"
+51192,"SSL Certificate Cannot Be Trusted","7 Crypto"
+51891,"SSL Session Resume Supported","7 Crypto"
+54615,"Device Type",""
+56471,"SSL Certificate Chain Not Sorted","7 Crypto"
+56472,"SSL Certificate Chain Contains Unnecessary Certificates","7 Crypto"
+56984,"SSL / TLS Versions Supported","7 Crypto"
+57041,"SSL Perfect Forward Secrecy Cipher Suites Supported","7 Crypto"
+57323,"OpenSSL Version Detection","7 Crypto"
+62564,"TLS Next Protocols Supported","7 Crypto"
+66334,"Patch Report","7 Crypto"
+70544,"SSL Cipher Block Chaining Cipher Suites Supported","7 Crypto"
+70657,"SSH Algorithms and Languages Supported","7 Crypto"
+70658,"SSH Server CBC Mode Ciphers Enabled","7 Crypto"
+71049,"SSH Weak MAC Algorithms Enabled","7 Crypto"
+84502,"HSTS Missing From HTTPS Server","7 Crypto"
+84821,"TLS ALPN Supported Protocol Enumeration","7 Crypto"
+87242,"TLS NPN Supported Protocol Enumeration","7 Crypto"
+94761,"SSL Root Certification Authority Certificate Information","7 Crypto"
+95631,"SSL Certificate Signed Using Weak Hashing Algorithm (Known CA)","7 Crypto"

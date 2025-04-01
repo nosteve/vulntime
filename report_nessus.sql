@@ -1,17 +1,16 @@
+create view FCH as
 select
-count(client_int.host) as "count", 
-client_int.timestamp,
-client_int."Plugin ID",
-client_int.CVE,
-client_int.Name,
-kev.cveID as "[CISA KEV] Match",
-kev.knownRansomwareCampaignUse as "[CISA KEV] Campaign Use",
-ds.category as "[DS] Category",
-client_int."VPR Score" as "VPR Score",
-client_int."EPSS Score" as "EPSS Score",
-client_int.Metasploit as "Metasploit"
-from client_int 
-left join ds on client_int."Plugin ID" = ds.id
-left join kev on client_int.cve = kev.cveID
-where client_int.timestamp = 202501
+count(client.host) as "count", 
+client."Plugin ID",
+client.CVE,
+client.Name,
+kev.cveID as "CISA KEV Match",
+kev.knownRansomwareCampaignUse as "CISA KEV Campaign Use",
+category.category as "vulntime Category",
+client."VPR Score" as "VPR Score",
+client."EPSS Score" as "EPSS Score",
+client.Metasploit as "Metasploit"
+from client 
+left join category on client."Plugin ID" = category.id
+left join kev on client.cve = kev.cveID
 group by "Plugin ID";

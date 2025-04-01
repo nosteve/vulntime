@@ -1,0 +1,7 @@
+# Ignore 
+category.csv
+datasette.yaml
+known_exploited_vulnerabilities.csv
+metadata.json
+mydb.db
+nessus_fake.csv
